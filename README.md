@@ -1,11 +1,11 @@
-# NOT WORKING ANYMORE: Grass Desktop Node Bot 2.0x Earnings, Multiple Accounts.
+# UPDATED: Grass Community Node Bot 1.25x Earnings, Multiple Accounts.
 ### Automate Grass Node mining with this Python based script for VPS, managing multiple Devices and IP address to ensure 24/7 uptime and maximize earnings. Perfect for those seeking a seamless and efficient way to handle WebSocket connections through SOCKS5 Protocol.
 
 ![AGPL License](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)
 
 
 # Features
-* Grass Node Script for Stage 2 and 2.00x boost !!
+* Grass Node Script for Season 2 and 1.25x boost !!
 * Connects to a WebSocket server using SOCKS proxies.
 * Handles Multiple Get Grass User IDs at once !! Multiple Proxies (1 Proxy ~3000 $GRASS Points per day)
 * As Per Stage 1 AIRDROP 1M Grass Points == 45 GRASS tokens roughly (N/A for Bonus Epooch) !!
@@ -62,7 +62,7 @@ pip install -r requirements.txt
 5. Dont Forget to add your proxies in the proxy.txt file you can add 10000+ proxy !! Format # `socks5://username:pass@ip:port`.
 6. You can get Multiple Proxies from Proxies.fo Website. `1 IP == ~3000 $Grass per Day `.
 7. To Run Script `python3 main.py` 
-8. To Run multiple User ID just copy paste the `main.py` file code and create new python file and repeat the process make sure to create new Folders and add different proxies !!. 
+8. To Run multiple User ID just add multiple userids in the `config.json` file. 
 
 **Note** - ~2GB Spent on Proxies = 45 $Grass tokens = $90 ~ As per Past trends and Old Stage 1 USERS.
 ---
