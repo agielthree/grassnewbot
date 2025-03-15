@@ -5,7 +5,7 @@
 <a href="https://t.me/+rurxli5cagplMjM8"><img width="120px" alt="Telegram" src="https://img.icons8.com/fluency/96/0088CC/telegram-app.png"/></a>
 
 
-# NOT LATEST: Grass Community Node Bot 1.25x Earnings, Multiple Accounts 🚀
+# LATEST: Grass Community Node Bot 1.25x Earnings, Multiple Accounts 🚀
 
 Automate Grass Node mining with this Python based script for VPS, managing multiple devices and IP addresses to ensure 24/7 uptime and maximize earnings. Perfect for those seeking a seamless and efficient way to handle WebSocket connections through the SOCKS5 Protocol.
 
