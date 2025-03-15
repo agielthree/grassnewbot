@@ -1,70 +1,120 @@
-# UPDATED: Grass Community Node Bot 1.25x Earnings, Multiple Accounts.
-### Automate Grass Node mining with this Python based script for VPS, managing multiple Devices and IP address to ensure 24/7 uptime and maximize earnings. Perfect for those seeking a seamless and efficient way to handle WebSocket connections through SOCKS5 Protocol.
+# ⚠️ **DISCLAIMER** ⚠️  
+## **Important:** 
+### To prevent unauthorized distribution and theft of this script, **please join my exclusive Telegram group to obtain the latest version and updates, It's all free. Click on the Telegram Icon to join my group:**  
+<p align="center">
+<a href="https://t.me/+rurxli5cagplMjM8"><img width="120px" alt="Telegram" src="https://img.icons8.com/fluency/96/0088CC/telegram-app.png"/></a>
+
+
+# NOT LATEST: Grass Community Node Bot 1.25x Earnings, Multiple Accounts 🚀
+
+Automate Grass Node mining with this Python based script for VPS, managing multiple devices and IP addresses to ensure 24/7 uptime and maximize earnings. Perfect for those seeking a seamless and efficient way to handle WebSocket connections through the SOCKS5 Protocol.
 
 ![AGPL License](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)
 
+---
 
-# Features
-* Grass Node Script for Season 2 and 1.25x boost !!
-* Connects to a WebSocket server using SOCKS proxies.
-* Handles Multiple Get Grass User IDs at once !! Multiple Proxies (1 Proxy ~3000 $GRASS Points per day)
-* As Per Stage 1 AIRDROP 1M Grass Points == 45 GRASS tokens roughly (N/A for Bonus Epooch) !!
-* Based ON Data USAGE 2 GB PROXY DATA Produces 1M Points Means; 6$ Spent on proxy Gives ~45 GRASS tokens.
-* Handles All kinds of Error such a Dead proxy/ SSL: WRONG_VERSION_NUMBER / invalid length of packed IP address / Empty connect reply / sent 1011 (internal error) keepalive.
-* Automatically removes the dead proxy from the File!!
+## Features ✨
 
-# Get User Id
+- **Season 2 Boost & 1.25x Earnings:** Enjoy enhanced earnings with the latest Season 2 update!
+- **WebSocket Connection via SOCKS Proxies:** Securely connect using the SOCKS5 protocol.
+- **Multiple User IDs:** Manage several Get Grass accounts simultaneously with multiple proxies.
+- **High Earning Potential:** Each proxy (≈ 3000 $GRASS Points per day) maximizes your daily earnings.
+- **Cost Efficiency:** As per Stage 1 Airdrop data, 1M Grass Points roughly equals 45 GRASS tokens (Bonus Epooch not included).
+- **Data Usage Efficiency:** Approximately 2 GB of proxy data yields 1M points, meaning ~$6 spent on proxies produces around 45 GRASS tokens.
+- **Robust Error Handling:** The script automatically manages errors such as dead proxies, SSL errors (e.g., WRONG_VERSION_NUMBER), invalid packed IP addresses, empty connect replies, and internal errors (sent 1011 keepalive). Dead proxies are automatically removed from the file.
 
-1. Open the link and log in https://app.getgrass.io/dashboard
-2. Press F12 on the page to open the console and enter the code (Ctrl + Shift + i) inspect
-3. Enter the following in the console:
-```javascript
-localStorage.getItem('userId')
-```
-4. "PRINTED TEXT IS THE USER_ID"
-![image](https://github.com/user-attachments/assets/ef45b21c-4a13-4853-a4b2-9c1b88b2eaae)
+---
 
+## Get Your User ID 🔍
 
+1. Open [Get Grass Dashboard](https://app.getgrass.io/dashboard) and log in.
+2. Press `F12` (or `Ctrl + Shift + I`) to open the developer console.
+3. Enter the following code in the console:
+   ```javascript
+   localStorage.getItem('userId')
+   ```
+4. The printed text is your **USER_ID**.
 
-## Requirements
+![User ID Screenshot](https://github.com/user-attachments/assets/ef45b21c-4a13-4853-a4b2-9c1b88b2eaae)
 
-- Invitation link Get Grass Accounts  [https://app.getgrass.io/register/](https://app.getgrass.io/register/?referralCode=citNrn5sQAg87PE)
-- Python (install Python By - https://www.python.org/downloads/ [windows/mac]) or Ubuntu Server [`sudo apt install python3`]
-- VPS Server ! You can get Via AWS free Tier or Google Free tier or any online for just ~ 2-5$ per month
-- Proxy Server - Buy Only ISP Residential Proxies to Earn $GRASS else you will earn 0% on data Centers / Free Cheap proxies (Best proxy providers are)
-- Proxies.fo -  [https://app.proxies.fo](https://app.proxies.fo/ref/f1353b58-10c4-98a5-d94d-6164e2efcfaf) [Buy Only 1GB Plan Enough for 1-6 months and you get Unlimited Accounts or proxies]
-- Proxy Server - Buy Only ISP Residential Proxies to Earn $GRASS else you will earn 0% on data Centers
+---
 
-## If You Want To Buy Proxies From My Recommended Provider Follow These Steps
-1. Go to [https://app.proxies.fo](https://app.proxies.fo/ref/f1353b58-10c4-98a5-d94d-6164e2efcfaf) and Sign Up.
-2. Go to the ISP section, DONOT BUY THE RESIDENTIAL PLAN OR ELSE THIS WON'T WORK:
-![image](https://github.com/user-attachments/assets/c81fc995-11f9-4448-9355-0065d4286cf2)
-3. Buy one of these plans, remember DONOT BUY THE RESIDENTIAL PLAN ONLY BUY THE ISP PLAN:
-![image](https://github.com/user-attachments/assets/bbd22e0a-22c7-42cf-8608-361d7310e0ae)
-4. Now you're going to generate SOCKS5 proxies, and add them to the proxy.txt file.
+## Requirements ✅
 
-## SETPS TO RUN THE CODE -
+- **Get Grass Accounts Invitation:**  
+  [Sign Up Here](https://app.getgrass.io/register/?referralCode=citNrn5sQAg87PE)
+- **Python:**  
+  Download from [python.org](https://www.python.org/downloads/) for Windows/Mac or install on Ubuntu:
+  ```bash
+  sudo apt install python3
+  ```
+- **VPS Server:**  
+  Options include AWS free tier, Google Cloud free tier, or any affordable VPS (~$2-5/month).
+- **Proxy Server:**  
+  **Important:** Use only ISP Residential Proxies to earn $GRASS tokens; data center or cheap proxies will result in 0% earnings.
+- **Recommended Proxy Provider:**  
+  Use [Proxies.fo](https://app.proxies.fo/ref/f1353b58-10c4-98a5-d94d-6164e2efcfaf). Purchase the ISP plan (not the residential plan) for optimal performance.
 
-Before running the script, ensure you have Python installed on your machine. Then, install the necessary Python packages using:
-#### 1. Clone the repo:
-```bash 
-git clone https://github.com/FakerPK/NewGrassBot.git
-```
-#### 2. Change Directory
-```bash
-cd NewGrassBot
-```
-#### 3. Install required packages
-```python
-pip install -r requirements.txt
-```
-4. You will be prompted for your `UserID` and the amount of proxies you want to use.
-5. Dont Forget to add your proxies in the proxy.txt file you can add 10000+ proxy !! Format # `socks5://username:pass@ip:port`.
-6. You can get Multiple Proxies from Proxies.fo Website. `1 IP == ~3000 $Grass per Day `.
-7. To Run Script `python3 main.py` 
-8. To Run multiple User ID just add multiple userids in the `config.json` file. 
+---
 
-**Note** - ~2GB Spent on Proxies = 45 $Grass tokens = $90 ~ As per Past trends and Old Stage 1 USERS.
+## If You Want to Buy Proxies From My Recommended Provider 🔒
+
+1. **Sign Up:**  
+   Visit [Proxies.fo](https://app.proxies.fo/ref/f1353b58-10c4-98a5-d94d-6164e2efcfaf) and register.
+2. **Go to the ISP Section:**  
+   **DO NOT** buy the Residential Plan—only purchase the ISP plan.  
+   ![ISP Section](https://github.com/user-attachments/assets/c81fc995-11f9-4448-9355-0065d4286cf2)
+3. **Select a Plan:**  
+   Choose one of the ISP plans (avoid the Residential Plan).  
+   ![Plan Selection](https://github.com/user-attachments/assets/bbd22e0a-22c7-42cf-8608-361d7310e0ae)
+4. **Generate SOCKS5 Proxies:**  
+   Add the generated proxies to the `proxy.txt` file in the following format:
+   ```
+   socks5://username:pass@ip:port
+   ```
+
+---
+
+## Steps to Run the Code ▶️
+
+Before running the script, ensure you have Python installed and all necessary packages.
+
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/FakerPK/NewGrassBot.git
+   ```
+2. **Change Directory:**
+   ```bash
+   cd NewGrassBot
+   ```
+3. **Install Required Packages:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. **Enter Your User ID and Proxy Count:**  
+   You will be prompted to enter your `UserID` and the number of proxies you wish to use.
+5. **Add Your Proxies:**  
+   Add your proxies to the `proxy.txt` file. You can add 10,000+ proxies!  
+   **Format:** `socks5://username:pass@ip:port`
+6. **Multiple Proxies:**  
+   Each IP is estimated to earn ~3000 $GRASS per day.
+7. **Run the Script:**
+   ```bash
+   python3 main.py
+   ```
+8. **Multiple User IDs:**  
+   To run multiple User IDs, add them to the `config.json` file.
+
+---
+
+### NOTE:
+
+Approximately 2GB of proxy data yields about 45 $GRASS tokens (around $90), based on past trends and Stage 1 user data.
+
+Happy mining and good luck maximizing your earnings! 💰🔥
+
+*For further assistance or updates, always refer to our Telegram group.*
+
 ---
 ##  **💸Donations**
 If you would like to support me or the development of this projects, you can make a donation using the following addresses:
@@ -80,12 +130,10 @@ If you would like to support me or the development of this projects, you can mak
 ```bash
 bc1qhx7waktcttam9q9nt0ftdguguwg5lzq5hnasmm
 ```
----
-
-## FOR ANY KIND OF HELP CONTACT : ` FakerPK` on Discord  https://discord.com/users/1087110214559473766
-
-# SOCIALS -
-
-- **Telegram** - [https://t.me/FakerPK](https://t.me/FakerPK)
-- **Discord** - [https://discord.gg/pGJSPtp9zz](https://discord.gg/Z58YmYwr))
-
+----
+## Support 🆘  
+Contact `FakerPK` on:  
+<p align="center">
+  <a href="https://t.me/+rurxli5cagplMjM8"><img width="60px" alt="Telegram" src="https://img.icons8.com/fluency/96/0088CC/telegram-app.png"/></a>
+  <a href="https://discord.gg/mjzgatMCk8"><img width="60px" alt="Discord" src="https://img.icons8.com/fluency/96/FFA500/discord-logo.png"/></a> &#8287;
+  <a href="https://medium.com/@FakerPK"><img width="60px" src="https://img.icons8.com/ios-filled/96/F0F0EC/medium-monogram.png" alt="Medium"></a>&#8287;
